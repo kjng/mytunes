@@ -4,6 +4,10 @@ var SongQueue = Backbone.Collection.extend({
   model: SongModel,
 
   initialize: function() {
+    // console.log('This collection: ' + this);
+    // this.collection.on('add', function() {
+
+    // }, this);
   }
 
 });
