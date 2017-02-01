@@ -26,6 +26,7 @@ var SongQueue = Backbone.Collection.extend({
   },
 
   dequeue: function(song) {
+    console.log(this);
     if (this.at(0) === song) {
       this.remove(song);
       if (this.length) {
